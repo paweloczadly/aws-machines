@@ -4,7 +4,11 @@ Lists all EC2 instances (name, instance type, AZ) from all regions per AWS accou
 
 ## Usage
 
+Go to releases. Download proper binary for your OS. For Linux run the following:
+
 ```
+$ mv aws-machines-linux-amd64 aws-machines
+$ chmod +x aws-machines
 $ ./aws-mchines accessKeys.csv output.csv
 ```
 
